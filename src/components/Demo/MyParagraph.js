@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const MyParagraph = (props) => {
-  console.log("MyParagraph RUNNING");
+  console.log('MyParagraph RUNNING');
   return <p>{props.children}</p>;
 };
 
